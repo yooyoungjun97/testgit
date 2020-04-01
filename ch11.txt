@@ -1,0 +1,14 @@
+from tkinter import
+alpabet={}
+infilename=input("파일이름을 입력하시오:")
+infile=open(infilename,"r")
+rfile=infile.read()
+infil.close()
+
+for line in rfile:
+for ch in line:
+if ch in alpabet:
+alpabet[ch]+=1
+else:
+alpabet[ch]
+print(alpabet)
